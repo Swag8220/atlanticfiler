@@ -1,0 +1,82 @@
+html {
+    overflow: hidden;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.main-container {
+    display:none;
+    width: 70vw;
+    margin: auto;
+    position: relative;
+    top: 35vh;
+}
+
+.character-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.character-box {
+    color: #ffffff;
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    text-align: center;
+    border: 2px solid transparent;
+    min-width: 280px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.character-box:hover {
+    background: rgba(0,0,0,1.0);
+    border-radius: 5px;
+    transition: 200ms;
+}
+
+.character-info {
+    text-align: left!important;
+}
+
+.character-fullname {
+color: #1050ff;
+font: bold;
+}
+
+.character-buttons {
+    display: none;
+    width: 70vw;
+    margin:15px auto;
+}
+
+.btn-play {
+    background: #43A047;
+    color: #FFFFFF;
+    float:left;
+    margin-right: 10px;
+}
+
+.btn-play:hover {
+    background: #2eb72c;
+}
+
+.btn-delete {
+    background: #bd2419;
+    color: #FFFFFF;
+    float:left;
+}
+
+.btn {
+    margin-top: 5%;
+}
+
+
+.btn-delete:hover {
+    background: #bd2419;
+}

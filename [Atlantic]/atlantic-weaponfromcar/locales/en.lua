@@ -1,0 +1,26 @@
+Locales['en'] = {
+    ['equiping_weapon'] = 'Pulls %s out of the trunk',
+    ['equiping_weapon_bag'] = 'Pulls %s out of the bagpack',
+    ['err_rem_msg'] = 'You can\'t unequip your weapon because you have no bagpack or vehicle nearby.',
+    ['err_pull_msg'] = 'You can\'t equip your weapon because you have no bagpack or vehicle nearby.',
+
+    -- Weapon names
+    ['assaultrifle'] = 'AK-47',
+    ['carbinerifle'] = 'M-10',
+    ['smg'] = 'MP5',
+    ['microsmg'] = 'UZI',
+    ['machinepistol'] = 'TEC-9',
+    ['minismg'] = 'Scorpion',
+    ['sawnoffshotgun'] = 'Sawed-Off Shotgun',
+    ['gusenberg'] = 'Gusenberg Sweeper',
+    ['smokegrenade'] = 'Tear Gas',
+    ['bat'] = 'Baseball Bat',
+    ['crowbar'] = 'Crowbar',
+    ['golfclub'] = 'Golf Club',
+    ['hatchet'] = 'Hatchet',
+    ['machete'] = 'Machete',
+    ['wrench'] = 'Pipe Wrench',
+    ['battleaxe'] = 'Battle Axe',
+    ['poolcue'] = 'Pool Cue',
+    ['stone_hatchet'] = 'Stone Hatchet',
+}

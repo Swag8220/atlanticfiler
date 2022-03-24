@@ -1,0 +1,4 @@
+-- RegisterServerEvent('elf3dme:shareDisplay')
+-- AddEventHandler('elf3dme:shareDisplay', function(text)
+-- 	TriggerClientEvent('elf3dme:triggerDisplay', -1, text, source)
+-- end)

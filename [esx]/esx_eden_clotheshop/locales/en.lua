@@ -1,0 +1,22 @@
+Locales['en'] = {
+
+	['valid_this_purchase'] = 'Godkend dette køb?',
+	['yes'] = 'Ja',
+	['no'] = 'Nej',
+	['name_outfit'] = 'Navnet på dit outfit',
+	['not_enough_money'] = 'Du har ikke nok penge',
+	['press_menu'] = 'Tryk på ~INPUT_CONTEXT~ for at tilgå menuen',
+	['clothes'] = 'Tøj',
+	['you_paid'] = 'Du betalte DKK',
+	['save_in_dressing'] = 'Vil du give dit outfit et navn?',
+	['shop_clothes'] = 'Tøj butik',
+	['player_clothes'] = 'Skift tøj - omklædningsrum',
+	['shop_main_menu'] = 'Velkommen!',
+	['saved_outfit'] = 'Dit outfit er blevet gemt i dit omklædningsrum. Tak for dit besøg!',
+	['loaded_outfit'] = 'Du har valgt et outfit fra dit omklædningsrum. Tak for dit besøg!',
+	['suppr_cloth'] = 'Slet outfit - omklædningsrum',
+	['supprimed_cloth'] = 'Dette outfit er slettet fra dit omklædningsrum',
+	['ped_models'] = 'PED Modeller',
+	['ped_confirm'] = 'Du har valgt en PED model',
+	['no_permission'] = 'Du har ikke lov til at bruge denne PED model!',
+}

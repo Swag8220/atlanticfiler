@@ -1,0 +1,50 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+.playerStats{
+	position: absolute;
+	top: 10px;
+	right: 0%;
+}
+
+.stat{
+	color: #fff;
+	background: linear-gradient(to left, rgba(0,0,0,0) -1220%,rgba(0,0,0,0.65) 100%);
+	width: 220px;
+	height: 30px;
+	position: relative;
+	margin-bottom: 7px;
+	//box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+
+}
+
+.stat .icon{
+	height: 30px;
+	width: 30px;
+	background: linear-gradient(to left, rgba(0,0,0,0) 50%,rgba(0,0,0,0.65) 50%);
+	border-radius: 25%;
+
+	position: relative;
+	display: inline-block;
+	right: 15px;
+}
+
+.stat .icon i, .stat .icon img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.stat .icon img{
+	height: 18px;
+	width: 18px;
+}
+
+
+.stat span{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: -10px;
+}

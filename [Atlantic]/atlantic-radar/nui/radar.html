@@ -1,0 +1,75 @@
+<!-- 
+
+    Wraith Radar System - v1.02
+    Created by WolfKnight - Heavily modified by DPL <3 DumpDump
+    
+-->
+
+<html>
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="radar.js" type="text/javascript"></script>
+        <link href="radar.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+
+    <body onselectstart="return false;" ondragstart="return false;">
+		<!-- Police Radar -->
+ 		<div id="policeradar" style="display: none;">
+			 <div class="main">
+				<section class="screen">
+					<div class="something">
+						<ul class="dashboard">
+							<li class="d-item speedsourcecontainer target" data-target="fwdspeed">
+								<p>fwd</p>
+								<span class="speednumber text">0</span>
+								<span class="fwdcarmodel">none</span>
+								<span class="fwdcarnumberplate">none</span>
+							</li>
+							
+							<li class="d-item speedsourcecontainer target" data-target="bwdspeed">
+								<p>bwd</p>
+								<span class="speednumber text">0</span>
+								<span class="bwdcarmodel">none</span>
+								<span class="bwdcarnumberplate">none</span>
+							</li>
+				
+							<li class="d-item speedsourcecontainer target" data-target="fwdfast">
+								<p>fwd fast</p>
+								<span class="speednumber text">0</span>
+								<span class="fwdfastcarmodel">none</span>
+								<span class="fwdfastcarnumberplate">none</span>
+							</li>
+				
+							<li class="d-item speedsourcecontainer target" data-target="bwdfast">
+								<p>bwd fast</p>
+								<span class="speednumber text">0</span>
+								<span class="bwdfastcarmodel">none</span>
+								<span class="bwdfastcarnumberplate">none</span>
+							</li>
+				
+							<li class="d-item ptrl speedsourcecontainer target" data-target="patrolspeed">
+								<p>ptrl</p>
+								<span class="speednumber text">0</span>
+							</li>
+				
+							<li class="d-item">
+								<span class="limit3">135</span>
+								<span class="limit2">85</span>
+								<span class="limit1 current">55</span>
+								<span class="pause-icon hide"></span>
+							</li>
+						</ul>
+				</div>
+					</section>
+			</div>
+
+		</div>
+
+
+
+
+    </body>
+</html>

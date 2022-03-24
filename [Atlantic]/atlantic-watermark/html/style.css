@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  background: transparent !important;
+  opacity: 98%;
+}
+
+.txt-special {
+  color: rgb(64, 111, 212);
+}
+
+.txt-holder {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.txt-main {
+  text-shadow: 2px 2px 6px #000000;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}

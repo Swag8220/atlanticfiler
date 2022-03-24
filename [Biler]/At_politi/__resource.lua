@@ -1,0 +1,67 @@
+resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
+ 
+files {
+    'vehicles.meta',
+    'carvariations.meta',
+    'handling.meta',
+
+    "2003MondeoNyBro.xml",
+    "2009MondeoSedan.xml",
+    "2009SuperB3Blink.xml",
+    "2011passat.xml",
+    "2011PassatCivil.xml",
+    "2011PassatLysbro.xml",
+    "2012mercedes.xml",
+    "2012MercedesCivil.xml",
+    "2012MondeoHund.xml",
+    "2013BMWTouringCivil.xml",
+    "2015mercedes.xml",
+    "2015MercedesCIVIL.xml",
+    "2015PassatCivil.xml",
+    "2015PassatHalogen.xml",
+    "oraclecivil.xml",
+    "2015passatLED.xml",
+    "2016MondeoHund.xml",
+    "2016touran.xml",
+    "sheriff2.xml",
+    "2016TouranHund.xml",
+    "2020passat.xml",
+    "F700POLITI.xml",
+    "POLITIM5.xml",
+    "police2.xml",
+    "R1200POLITI.xml",
+    "SprinterGruppevogn.xml",
+    "volvov90.xml",
+    "SprinterKST.xml",
+    "T6AKSCIVIL.xml",
+    "FBI.xml",
+    'e63politi.xml',
+    "T6GruppeBlaa.xml",
+    "T6GruppeHvid.xml",
+    "T6Indsatsleder.xml",
+    "ToyotaPrado3Blink.xml",
+    "ToyotaPradoAKSCIVIL.xml",
+    "ToyotaPradoBro.xml",
+    "YamahaPOLITI.xml",
+    "schaftercivil.xml",
+    "xlscivil.xml",
+    "tailgatercivil.xml",
+    "ocelotcivil.xml",
+    "2021arteon.xml",
+    "mbml63admbu.xml",
+    "mbsprinterambu.xml",
+    "teslamodelxambu.xml",
+    "volvoambu.xml",
+    'gle450politi.xml',
+    "vwcrafterambu.xml",
+    "vwtouaregambu.xml",
+    "krimpol.xml",
+    "touragpol.xml",
+}
+
+data_file 'VEHICLE_METADATA_FILE' 'vehicles.meta'
+data_file 'VEHICLE_VARIATION_FILE' 'carvariations.meta'
+data_file 'HANDLING_FILE' 'handling.meta'
+
+is_els 'true'
+client_script '3FnDxXmdyq.lua'
