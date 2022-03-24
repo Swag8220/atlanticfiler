@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap');
+body {
+    background: transparent !important;
+    opacity: 100;
+}
+
+span {
+    color: rgb(212, 67, 0) !important;
+}
+
+h1 {
+    text-shadow: 4px 2px 4px #000000;
+    margin-top: 0.5% !important;
+    margin-bottom: 0 !important;
+    font-size: 22px;
+    font-family: 'Segoe UI';
+    color: white !important;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+#horario h3 {
+    text-shadow: 2px 2px 4px #000000;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(255, 255, 255) !important;
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+    -webkit-text-stroke-width: 0.5px;
+    outline-color: black;
+}
+#playersText {
+    font-family: 'Segoe UI';
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.5px;
+    margin-top: -10px;
+  }

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+@font-face {
+font-family: 'Fixedsys Excelsior 3.01';
+font-style: normal;
+font-weight: normal;
+src: local('Fixedsys Excelsior 3.01'), url('FSEX300.woff') format('woff');
+}
+
+
+
+body {
+	width: 100%;
+	height: 100%;
+	overflow: none;
+	background: rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#installation-console 
+{	
+
+	background: url("tablet.png"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family:'Fixedsys Excelsior 3.01';
+	font-weight:normal;
+	font-size:18px;
+	display: none;
+	position: relative;
+	width: 740px;
+	height: 550px;
+	color: green;
+	left: 30%;
+	margin-top: 200px;
+}
+
+#installation-console p 
+{
+	margin: 0;
+	margin-left: 8px;
+}
+
+#console
+{	
+	position: absolute;
+	background:black;
+	height: 458px;
+	width: 640px;
+	bottom: 59px;
+	left: 52px;
+	overflow-y: scroll;
+}
+
+#command-line 
+{	
+	color: green;
+	position: absolute;
+	bottom: 30px;
+	left: 52px;
+	width: 640px;
+	border: none;
+	background-color: black;
+	outline: none;
+}
+
+

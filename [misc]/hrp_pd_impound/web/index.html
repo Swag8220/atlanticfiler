@@ -1,0 +1,115 @@
+﻿<html>
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>-->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <img id="cursor" src="cursor.png">
+
+        <div id="impound-form">
+			<h1>Beslaglæggelses formular</h1>
+			<hr>
+			<div id="veh-info">
+				<p id="owner">Ukendt</p>
+				<p id="plate">Ukendt</p>
+			</div>
+			<hr>
+			<div id="names" class="row">
+				<label>Politibetjent: </label>
+				<input id="officer" class="form-control" name="officer" placeholder="Fornavn & efternavn"/>
+				<label>Mekaniker: </label>
+				<input id="mechanic" class="form-control" name="officer" placeholder="Fornavn & efternavn"/>
+			</div>
+			<div id="duration-row">
+				<label>Tid:* </label>
+				<div id="duration">
+					<input type="number" min="0" max="41" id="weeks" class="form-control" name="weeks" placeholder="0 - 41 Uger"/>
+					<input type="number" min="0" max="6" id="days" class="form-control" name="days" placeholder="0 - 6 Dage"/>
+					<input type="number" min="0" max="23" id="hours" class="form-control" name="hours" placeholder="0 - 23 Timer"/>
+				</div>
+			</div>
+			<div id="fee-row">
+					<label>Pris:* </label>
+					<input type="number" min="250" max="1000000" id="fee" class="form-control" name="fee" placeholder="250 - 1.000.000"/>
+			</div>
+			<hr>
+			<div class="form-group">
+				<label>Begrundelse:* </label>
+				<textarea id="reason" class="form-control" name="reason" placeholder="Skriv en detaljeret beskrivelse på 25 tegn eller mere." rows="8"></textarea>
+			</div>
+			<hr>
+			<div class="form-group">
+				<label>Notater:* </label>
+				<textarea id="reason" class="form-control" name="reason" placeholder="Notater" rows="3"></textarea>
+			</div>
+			<hr>
+			<div id="hold_o" class="form-group checkbox">
+				Køretøjet skal frigives af en betjent: <input type="checkbox">
+			</div>
+			<div id="hold_m" class="form-group checkbox">
+				Køretøjet skal frigives af en mekaniker: <input type="checkbox">
+			</div>
+			<div id="errors">
+			
+			</div>
+			<div id="actions">
+				<button class="btn cancel mr" id="cancel">Anuller</button>
+				<button class="btn success" id="impound">Beslaglæg</button>
+			</div>
+        </div>
+		
+		<div id="retrieve-form">
+			<h1>Frigivelses formular</h1>
+			<span id="exit">&#x2715;</span>
+			<hr>
+			<div class="scrollable">
+				<table>
+					<thead>
+						<tr>
+							<th>Nummerplade</th>
+							<th>Frigivelses dato </th>
+							<th>Pris</th>
+							<th>Betjent/Mekaniker</th>
+							<th>Handlinger</th>
+						</tr>
+					</thead>
+					<tbody id="impounded-vehicles">
+						
+					</tbody>
+				</table>
+			</div>
+			<hr>
+			<p> Hvorfor er mit køretøj beslaglagt? </p>
+			<textarea id="r-reason" class="form-control" disabled rows="5"></textarea>
+			<p id="hold-by" class="error"></p>
+		</div>
+		
+		<div id="admin-terminal">
+			<h1>Beslaglagte Biler</h1>
+			<span id="exit">&#x2715;</span>
+			<hr>
+			<div class="scrollable">
+				<table>
+					<thead>
+						<tr>
+							<th>Nummerplade</th>
+							<th>Frigivelses dato </th>
+							<th>Pris</th>
+							<th>Betjent/Mekaniker</th>
+							<th>Handlinger</th>
+						</tr>
+					</thead>
+					<tbody id="admin-impounded-vehicles">
+						
+					</tbody>
+				</table>
+			</div>
+			<hr>
+			<p> Hvorfor er køretøjet beslaglagt? </p>
+			<textarea id="admin-reason" class="form-control" disabled rows="5"></textarea>
+		</div>
+
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
