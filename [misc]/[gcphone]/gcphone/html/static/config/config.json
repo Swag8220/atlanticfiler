@@ -1,0 +1,467 @@
+{
+  "reseau": "CBB - 5G",
+  "warningMessageCount": 999,
+  "themeColor": "#d08335",
+  "themeColorTitle": "#f7f7f7",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+
+  "useFormatNumberFrance": true,
+
+  "useWebRTCVocal": false,
+  "RTCConfig": {
+    "iceServers": [{
+      "urls": ["turn:barrax.needrp.net"],
+      "username": "gcphone",
+      "credential": "gcphone"
+    }]
+  },
+
+  "//": "REQUIRES https://github.com/citizenfx/screenshot-basic otherwise set enableTakePhoto to false. Thanks to @GLDmACK for his Upload Service!!!", 
+  "enableTakePhoto": true,
+  "fileUploadService_Url": "http://135.125.189.175:3555/upload",
+  "fileUploadService_Field": "files[]",
+
+  "background": {
+    "AT": "back001.jpg",
+    "Palms": "back002.jpg",
+    "Santa Mónica Beach": "back003.jpg",
+
+    "Route 66": "color.jpg",
+    "Classic tokyo": "humo.jpg",
+    "Dark planet": "iluminacion.jpg",
+
+    "AstroNeon": "neon.jpg",
+    "Illuminated planet": "oscuridad.jpg",
+    "Wild beach": "playa.jpg",
+    "Winter landscape": "paisajes.jpg",
+    "Tokio neon": "tokio.jpg",
+    "Custom URL": "URL"
+  },
+  "background_default": {
+    "label": "Santa Mónica Beach",
+    "value": "back003.jpg"
+  },
+  
+  "coque": {
+    "Samsung Galaxy S8": "s8.png",
+    "Samsung Galaxy S9 Black": "s9black.png",
+    "Samsung Galaxy S9 White": "s9white.png",
+    "Samsung Galaxy S10": "s10.png",
+    "Iphone X": "iphonex.png",
+    "Iphone X2": "iphonex2.png",
+    "Iphone X3": "iphonex3.png",
+    "Iphone 11 Green": "iphone11green.png",
+    "Google Pixel 3a XL": "pixel3axl.png",
+    "Google Top Cam": "op.png",
+    "Huawei": "huawei.png",
+    "Brick Base": "base.png",
+    "Transparent": "transparent.png"
+  },
+  
+  "sonido": {
+    "Astronomia": "ring.ogg",
+    "Crystallize": "Crystallize.ogg",
+    "Iphone 11": "iphone_11.ogg",
+    "XXXTentacion": "xtentacion.ogg",
+    "Dance Monkey": "dance_monkey.ogg",
+    "Don't Look Now": "dont-look-now",
+    "I'm a Gummy Bear": "gummybear.ogg",
+    "Non Copyright - Spectre": "Alan-Walker-Spectre.ogg",
+    "Non Copyright 2 - Mortals": "Warriyo-Mortals.ogg"
+  },
+
+  "coque_default": {
+    "label": "Samsung S8",
+    "value": "s8.png"
+  },
+
+  "sonido_default": {
+    "label": "Crystallize",
+    "value": "crystallize.ogg"
+  },
+
+  "serviceCall": [{
+      "display": "Politi",
+      "icon": "/html/static/img/icons_app/politi.png",
+      "subMenu": [{
+          "title": "Send Besked",
+          "action": "sendMessage",
+          "eventName": "esx_addons_gcphone:call",
+          "icons": "fa-comments",
+          "type": {
+            "number": "police"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Ambulance",
+      "icon": "/html/static/img/icons_app/ambulance.png",
+      "subMenu": [{
+        "action": "sendMessage",
+        "title": "Send Besked",
+        "icons": "fa-comments",
+        "eventName": "esx_addons_gcphone:call",
+        "type": {
+          "number": "ambulance"
+        }
+      }]
+    },
+    {
+      "display": "Taxa",
+      "icon": "/html/static/img/icons_app/taxi.png",
+      "subMenu": [{
+        "action": "sendMessage",
+        "title": "Send Besked",
+        "icons": "fa-comments",
+        "eventName": "esx_addons_gcphone:call",
+        "type": {
+          "number": "taxi"
+        }
+      }]
+    },
+    {
+      "display": "Advokat",
+      "backgroundColor": "grey",
+      "icon": "/html/static/img/icons_app/law.png",
+      "subMenu": [{
+        "title": "Send en besked",
+        "eventName": "esx_addons_gcphone:call",
+        "type": {
+          "number": "advokat"
+        }
+      }]
+    },
+    {
+      "display": "Mekaniker",
+      "icon": "/html/static/img/icons_app/mekaniker.png",
+      "subMenu": [{
+        "action": "sendMessage",
+        "title": "Send Besked",
+        "icons": "fa-comments",
+        "eventName": "esx_addons_gcphone:call",
+        "type": {
+          "number": "mechanic"
+        }
+      }]
+    },
+    {
+      "display": "Ejendomsmælger",
+      "icon": "/html/static/img/icons_app/estate-agent.png",
+      "subMenu": [{
+        "action": "sendMessage",
+        "title": "Send Besked",
+        "icons": "fa-comments",
+        "eventName": "esx_addons_gcphone:call",
+        "type": {
+          "number": "realestateagent"
+        }
+      }]
+    }
+  ],
+
+  "defaultContacts": [{
+      "number": "ambulance",
+      "display": "Ambulance",
+      "icon": "/html/static/img/icons_app/ambulance.png"
+    },
+    {
+      "number": "police",
+      "display": "Politi",
+      "icon": "/html/static/img/icons_app/politi.png"
+    },
+    {
+      "number": "realestateagent",
+      "display": "Ejendomsmælger",
+      "icon": "/html/static/img/icons_app/estate-agent.png"
+    }
+  ],
+
+"apps": [
+    {
+      "name": "Telefon",
+      "menuTitle": "visible",
+      "fr_FR__name": "Téléphone",
+      "cs_CZ__name": "Telefon",
+      "en_US__name": "Telefon",
+      "de_DE__name": "Telefon",
+      "pl_PL__name": "Telefon",
+      "es_ES__name": "Teléfono",
+      "pt_PT__name": "Chamadas",
+      "icons": "/html/static/img/icons_app/call.png",
+      "color": "#5BC236",
+      "routeName": "appels",
+      "inHomePage": true
+    },
+    {
+      "name": "Beskeder",
+      "menuTitle": "visible",
+      "fr_FR__name": "Messages",
+      "en_US__name": "Beskeder",
+      "cs_CZ__name": "Zprávy",
+      "de_DE__name": "Nachrichten",
+      "pl_PL__name": "Wiadomości",
+      "es_ES__name": "Mensajes",
+      "pt_PT__name": "Mensagens",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "color": "#5BC236",
+      "inHomePage": true,
+      "puceRef": "nbMessagesUnread"
+    },
+    {
+      "name": "Kontakter",
+      "menuTitle": "visible",
+      "fr_FR__name": "Contacts",
+      "en_US__name": "Kontakter",
+      "cs_CZ__name": "Kontakty",
+      "de_DE__name": "Kontakte",
+      "pl_PL__name": "Kontakty",
+      "es_ES__name": "Contactos",
+      "pt_PT__name": "Contactos",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "color": "#1180FF",
+      "inHomePage": true
+    },
+    {
+      "name": "Indstillinger",
+      "menuTitle": "visible",
+      "fr_FR__name": "Paramètres",
+      "en_US__name": "Indstillinger",
+      "cs_CZ__name": "Nastavení",
+      "de_DE__name": "Einstellungen",
+      "pl_PL__name": "Ustawienia",
+      "es_ES__name": "Ajustes",
+      "pt_PT__name": "Definições",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "color": "#95a5a6",
+      "inHomePage": false
+    },
+    {
+      "name": "Bank",
+      "menuTitle": "visible",
+      "fr_FR__name": "Banque",
+      "en_US__name": "Bank",
+      "cs_CZ__name": "Banka",
+      "de_DE__name": "Bank",
+      "pl_PL__name": "Lawka",
+      "es_ES__name": "Banco",
+      "pt_PT__name": "Banco",
+      "icons": "/html/static/img/icons_app/bank.png",
+      "routeName": "bank",
+      "color": "#ff3f34",
+      "inHomePage": false
+    },
+    {
+      "name": "Stock Market",
+      "menuTitle": "visible",
+      "fr_FR__name": "Bourse",
+      "cs_CZ__name": "Burza",
+      "en_US__name": "Stock Market",
+      "de_DE__name": "Börse",
+      "es_ES__name": "Bolsa",
+      "pt_PT__name": "Bolsa",
+      "icons": "/html/static/img/icons_app/stockmarket.png",
+      "routeName": "bourse",
+      "color": "#3c40c6",
+      "enabled": false
+    },
+    {
+      "name": "Kamera",
+      "menuTitle": "visible",
+      "fr_FR__name": "Photo",
+      "cs_CZ__name": "Fotoaparát",
+      "en_US__name": "Kamera",
+      "de_DE__name": "Kamera",
+      "pl_PL__name": "Kamera",
+      "es_ES__name": "Cámara",
+      "pt_PT__name": "Camera",
+      "icons": "/html/static/img/icons_app/camera.png",
+      "color": "#2c3e50",
+      "routeName": "photo"
+    },
+    {
+      "name": "Dark Chat",
+      "menuTitle": "visible",
+      "fr_FR__name": "Dark Chat",
+      "en_US__name": "Dark Chat",
+      "de_DE__name": "Dark Net",
+      "pl_PL__name": "Czat czarny",
+      "es_ES__name": "Chat Oscuro",
+      "pt_PT__name": "Chat Anônimo",
+      "icons": "/html/static/img/icons_app/darkchat.png",
+      "color": "#1e272e",
+      "routeName": "tchat"
+    },
+    {
+      "name": "Noter",
+      "menuTitle": "visible",
+      "fr_FR__name": "Notes",
+      "cs_CZ__name": "Poznámky",	  
+      "en_US__name": "Noter",
+      "de_DE__name": "Notizen",
+      "pl_PL__name": "Notatki",
+      "es_ES__name": "Notas",
+      "pt_PT__name": "Notas",
+      "routeName": "notes",
+      "color": "#feca57",
+      "icons": "/html/static/img/icons_app/notes.png"
+
+    },
+    {
+      "name": "9GAG",
+      "menuTitle": "visible",
+      "icons": "/html/static/img/icons_app/9gag.png",
+      "routeName": "9gag",
+      "color": "#000",
+      "inHomePage": true
+    }
+  ],
+  "defaultLanguage": "en_US",
+  "language": {
+    "en_US": {
+      "NAME": "Dansk",
+      "PHONE_WARNING_MESSAGE": "Påmindelse",
+      "PHONE_WARNING_MESSAGE_MESS": "Beskeder",
+      "CONFIRM": "Accepter",
+      "CANCEL": "Annuller",
+      "APP_CONFIG_TITLE": "Indstillinger",
+      "APP_MESSAGE_SAVE_CONTACT": "Gem kontakt",
+      "APP_CONFIG_MY_MUNBER": "Dit nummer",
+      "APP_CONFIG_WALLPAPER": "Baggrund",
+      "APP_CONFIG_CASE": "Cover",
+      "APP_CONFIG_SOUND": "Ringetone",
+      "APP_CONFIG_ZOOM": "Zoom",
+      "APP_CONFIG_VOLUME": "Lydstyrke",
+      "APP_CONFIG_LANGUAGE": "Sprog",
+      "APP_CONFIG_MOUSE_SUPPORT": "Musse kontrol",
+      "APP_CONFIG_RESET": "Geninstaller",
+      "APP_CONFIG_RESET_CONFIRM": "SLET ALT",
+      "APP_PHONE_CALL": "Ring",
+      "APP_PHONE_CALL_ANONYMOUS": "Anonymt Nummer",
+      "APP_PHONE_DELETE": "Slet",
+      "APP_PHONE_DELETE_ALL": "Slet alle.",
+      "APP_PHONE_CANCEL": "Annuller",
+      "APP_PHONE_ADD": "Gem ny conact",
+      "APP_PHONE_TITLE": "Telefonnummer",
+      "APP_PHONE_MENU_FAVORITES": "Foretrukne",
+      "APP_PHONE_MENU_RECENTS": "Nye",
+      "APP_PHONE_MENU_CONTACTS": "Kontakter",
+      "APP_PHONE_ENTER_NUMBER": "Skriv et nummer",
+      "APP_PHONE_NUMBER_HIDDEN": "Privat nummer",
+      "APP_PHONE_NUMBER_UNKNOWN": "Hemmeligt nummer",
+      "APP_BANK_TITLE": "Bank",
+      "APP_BOURSE_TITLE": "Aktier",
+      "APP_CONTACT_TITLE": "Kontakt",
+      "APP_CONTACT_NEW": "Ny Kontakt",
+      "APP_CONTACT_EDIT": "Rediger Kontakt",
+      "APP_CONTACT_SAVE": "Gem Kontakt",
+      "APP_CONTACT_CANCEL": "Annuller",
+      "APP_CONTACT_DELETE": "Slet",
+      "APP_CONTACT_LABEL_NAME": "Navn",
+      "APP_CONTACT_LABEL_NUMBER": "Nummer",
+      "APP_MESSAGE_TITLE": "Beskeder",
+      "APP_MESSAGE_NEW_MESSAGE": "Ny Besked",
+      "APP_MESSAGE_ERASE_CONVERSATION": "Slet Opkald",
+      "APP_MESSAGE_ERASE_ALL_CONVERSATIONS": "Slet alle beskeder",
+      "APP_MESSAGE_SEND_GPS": "Send GPS Lokation",
+      "APP_MESSAGE_SET_GPS": "GPS Lokation",
+      "APP_MESSAGE_SEND_GPS_REALTIME": "Send live lokation",
+      "APP_MESSAGE_SEND_GPS_REALTIME_TIME_1": "1 minut",
+      "APP_MESSAGE_SEND_GPS_REALTIME_TIME_2": "5 minutter",
+      "APP_MESSAGE_SEND_GPS_REALTIME_TIME_3": "10 minutter",
+      "APP_MESSAGE_ZOOM_IMG": "Zoom ind",
+      "APP_MESSAGE_DELETE": "Slet",
+      "APP_MESSAGE_SMS": "Tekstbesked",
+      "APP_MESSAGE_CONTACT_TITLE": "Kontakter",
+      "APP_MESSAGE_CONTRACT_ENTER_NUMBER": "Nummer",
+      "APP_MESSAGE_PLACEHOLDER_ENTER_MESSAGE": "Send besked",
+      "APP_MESSAGE_MESS_SMS": "SMS",
+      "APP_MESSAGE_MESS_CALL": "Ring",
+      "APP_MESSAGE_MESS_COPY": "Kopir",
+      "APP_MESSAGE_SEND_PHOTO": "Send et billede",
+      "APP_DARKTCHAT_TITLE": "Dark chat",
+      "APP_DARKTCHAT_NEW_CHANNEL": "Tilføj en kanal",
+      "APP_DARKTCHAT_DELETE_CHANNEL": "Slet kanal",
+      "APP_DARKTCHAT_CANCEL": "Annuller",
+      "APP_DARKTCHAT_PLACEHOLDER_ENTER_MESSAGE": "Skriv Besked",
+      "APP_TWITTER_NAME": "Twitter",
+      "APP_TWITTER_VIEW_TWITTER": "Twitter",
+      "APP_TWITTER_VIEW_TOP_TWEETS": "Top Tweets",
+      "APP_TWITTER_VIEW_TWEETER": "Tweets",
+      "APP_TWITTER_VIEW_SETTING": "Indstillinger",
+      "APP_TWITTER_NEW_ACCOUNT_USERNAME": "Brugernavn (>= 4)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD": "Adgangkode (>= 6)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD_CONFIRM": "Bekræft adgangskode",
+      "APP_TWITTER_NEW_ACCOUNT_AVATAR": "Link til dit brugernavn",
+      "APP_TWITTER_PLACEHOLDER_MESSAGE": "Hvad er der galt med dig?",
+      "APP_TWITTER_BUTTON_ACTION_TWEETER": "Tweeter",
+      "APP_TWITTER_ACCOUNT_LOGIN": "Login",
+      "APP_TWITTER_ACCOUNT_LOGOUT": "Log ud",
+      "APP_TWITTER_ACCOUNT_PARAM": "Min Konto",
+      "APP_TWITTER_ACCOUNT_AVATAR": "Ændre profilbillede",
+      "APP_TWITTER_ACCOUNT_CHANGE_PASSWORD": "Ændre adgangskode",
+      "APP_TWITTER_ACCOUNT_NEW": "Ny konto",
+      "APP_TWIITER_ACCOUNT_SAVE": "registrering",
+      "APP_TWIITER_ACCOUNT_CREATE": "Opret konto",
+      "APP_TWIITER_ACCOUNT_CANCEL": "Annuller",
+      "APP_TWITTER_ACCOUNT_USERNAME": "Brugernavn",
+      "APP_TWITTER_ACCOUNT_PASSWORD": "Adgangskode",
+      "APP_TWITTER_NOTIFICATION": "Notifikationer",
+      "APP_TWITTER_NOTIFICATION_WHEN": "To be notified",
+      "APP_TWITTER_NOTIFICATION_ALL": "Alle nyheder",
+      "APP_TWITTER_NOTIFICATION_MENTION": "Når du bliver nævnt",
+      "APP_TWITTER_NOTIFICATION_NEVER": "Ingen",
+      "APP_TWITTER_NOTIFICATION_SOUND": "Lyd?",
+      "APP_TWITTER_NOTIFICATION_SOUND_YES": "Ja",
+      "APP_TWITTER_NOTIFICATION_SOUND_NO": "Nej",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_SUCCESS": "Din Twitter-konto er oprettet.",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_ERROR": "Din Twitter-konto kunne ikke blive oprettet (brugernavn allerede taget?)",
+      "APP_TWITTER_NOTIF_LOGIN_SUCCESS": "Du er nu logget ind.",
+      "APP_TWITTER_NOTIF_LOGIN_ERROR": "Ugyldig brugernavn/adgangskode",
+      "APP_TWITTER_NOTIF_AVATAR_SUCCESS": "Dit profilbillede er ændret",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_SUCCESS": "Din adgangskode er ændret.",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_ERROR": "Upsssi.. Din adgangskode kan ikke blive ændret",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_MISS_MATCH": "Adgangskoderne er ikke ens",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_LENGTH_ERROR": "Adgangskoden er for langt nok",
+      "APP_NOTES": "Noter",
+      "APP_BANK_TITLE_BALANCE": "Balance: ",
+      "APP_BANK_TITLE_ENTER_MONEY": "Indtast beløb",
+      "APP_BANK_BUTTON_TRANSFER": "Overfør",
+      "APP_BANK_BUTTON_CANCEL": "Annuller",
+      "APP_DARKTCHAT_NEW_NOTE": "Ny note",
+      "APP_DARKTCHAT_DELETE_NOTE": "Slet note",
+
+      "TIMEAGO": [
+        "Lige nu",
+        ["%s senkundt siden", "%s sekunder siden"],
+        ["%s minut siden", "%s minutter siden"],
+        ["%s time siden", "%s timer siden"],
+        ["%s dag siden", "%s dage siden"],
+        ["%s uge siden", "%s uger siden"],
+        ["%s måned siden", "%s måneder siden"],
+        ["%s år siden", "%s år siden"]
+      ]
+    }
+  }
+}
